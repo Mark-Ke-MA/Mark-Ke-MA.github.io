@@ -1,0 +1,84 @@
+---
+title: "KM"
+page-navigation: true
+format:
+  html:
+    title-block-banner: "images/Equations_KM_2.jpg"  # 可选：使用图片作为横幅背景
+    title-block-banner-color: "lightblue"  # 根据背景图调整文字颜色，"dark" 或 "light"
+    toc: false
+    page-layout: full
+    css: styles.css
+---
+
+# Education & Research
+
+## Academic History
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+
+### PhD in Astrophysics
+**University of Nottingham** | *2023 – Present*  
+- **Thesis:** Cosmology with the Lyman-Alpha Forest  
+- **Supervisor:** Prof. James S. Bolton  
+- **Research Focus:** Lyman-Alpha Forest, Intergalactic Medium, Epoch of Reionization
+
+:::
+::: {.g-col-12 .g-col-md-4 .text-md-end}
+Nottingham, UK
+:::
+:::
+
+---
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+
+### MSci in Theoretical Physics (Integrated Master)
+**University College London** | *2017 - 2021*  
+- **Thesis:** Improved estimator of dark matter entropy in cosmological simulations  
+- **Supervisor:** Prof. Andrew Pontzen  
+- **Grade:** Distinction (First Class Honours), GPA 85/100  
+- **Rank:** Top 5% graduating students, 1st in second year  
+<!-- - **Relevant Coursework:** Nuclear and Particle Physics (97/100), Solid State Physics (96/100), Mathematical Methods (95/100), Cosmology (91/100), Advanced Quantum Theory (92/100), Electromagnetic Theory (91/100)   -->
+
+:::
+::: {.g-col-12 .g-col-md-4 .text-md-end}
+London, UK
+:::
+:::
+
+---
+
+## Research Experience
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+
+### Research Assistant in Astronomy
+**Tsinghua University** | *2021 - 2023*  
+- **Research Focus:** The effect of cosmic variance on Lyman-Alpha luminosity functions at z=2.2-2.3  
+- **Collaboration:** MAMMOTH-Subaru project  
+- **Collaborators:** Prof. Zheng Cai, Dr. Haibin Zhang, Mingyu Li  
+
+:::
+::: {.g-col-12 .g-col-md-4 .text-md-end}
+Beijing, China
+:::
+:::
+
+---
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+
+### Research Intern in Natural Language Processing
+**Shanghai AI Lab** | *June 2021 - September 2021*  
+- **Focus:** Natural Language Processing (NLP) techniques and applications  
+- **Collaborator:** Prof. Lingpeng Kong  
+
+:::
+::: {.g-col-12 .g-col-md-4 .text-md-end}
+Shanghai, China
+:::
+:::

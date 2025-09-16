@@ -1,0 +1,75 @@
+---
+title: "KM"
+page-navigation: true
+format:
+  html:
+    title-block-banner: "images/Equations_KM_4.jpg"  # 可选：使用图片作为横幅背景
+    title-block-banner-color: "lightblue"  # 根据背景图调整文字颜色，"dark" 或 "light"
+    toc: false
+    page-layout: full
+    css: styles.css
+---
+
+# Awards & Honours
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+
+### China Scholarship Council (CSC) Research Excellence Scholarship  
+**China Scholarship Council** | *2023*  
+Awarded to outstanding PhD students pursuing studies abroad  
+
+:::
+::: {.g-col-12 .g-col-md-4 .text-md-end}
+National Level Award
+:::
+:::
+
+<div style="text-align: center; margin: 1.5rem 0;">
+<img src="/images/CSC.jpg" 
+alt="China Scholarship Council Certificate" 
+style="max-width: 80%; width: auto; border: 1px solid #eee; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border-radius: 8px;">
+</div>
+
+---
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+
+### Dean's List Award  
+**University College London** | *2021*  
+Awarded to top 5% of graduating students in the Faculty of Mathematical & Physical Sciences  
+(For more details, see [here](https://www.ucl.ac.uk/mathematical-physical-sciences/about/faculty-prizes/deans-list-commendees))
+
+:::
+::: {.g-col-12 .g-col-md-4 .text-md-end}
+London, UK
+:::
+:::
+
+<div style="text-align: center; margin: 1.5rem 0;">
+<img src="/images/DeansList.jpg" 
+alt="UCL Dean's List Certificate" 
+style="max-width: 80%; width: auto; border: 1px solid #eee; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border-radius: 8px;">
+</div>
+
+---
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-8}
+
+### Wood Prize  
+**University College London** | *2019*  
+Awarded to the best-performing second-year undergraduate in the Department of Physics & Astronomy  
+
+:::
+::: {.g-col-12 .g-col-md-4 .text-md-end}
+London, UK
+:::
+:::
+
+<div style="text-align: center; margin: 1.5rem 0;">
+<img src="/images/WoodPrize.jpg" 
+alt="UCL Wood Prize Certificate" 
+style="max-width: 80%; height: auto; border: 1px solid #eee; box-shadow: 0 5px 15px rgba(0,0,0,0.08); border-radius: 8px;">
+</div>

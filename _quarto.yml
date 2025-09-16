@@ -1,0 +1,38 @@
+project:
+  type: website
+  output-dir: docs
+  
+website:
+  page-navigation: true
+  title: "Ke (Mark) Ma"
+  site-url: https://Mark-Ke-MA.github.io
+  favicon: images/site-logo.png
+  repo-url: https://github.com/Mark-Ke-MA/Mark-Ke-MA.github.io
+  #repo-actions: [edit, issue]
+  
+  page-footer:
+    left: |
+      © 2025 <a href="mailto:markma501x@gmail.com">马可 (Ke Ma)</a>。本站所有内容及原创图片版权均归作者所有。  
+      © 2025 <a href="mailto:markma501x@gmail.com">Ke Ma</a>. All website content and original artwork rights reserved.<br>
+    right: |
+      Made with [Quarto](https://quarto.org/)<br>
+    
+  navbar: 
+    background: "#253D83"
+    search: true
+    right: 
+      - text: "Home"
+        href: index.qmd
+      - text: "Background"
+        href: background.qmd
+      - text: "Publications"
+        href: publications.qmd
+      - text: "Awards"
+        href: awards.qmd
+
+format:
+  html:
+    theme: styles.scss
+    toc: true            # 启用目录
+    toc-position: right  # 将目录放置在页面的右侧
+    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细

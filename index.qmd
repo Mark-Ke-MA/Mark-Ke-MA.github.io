@@ -1,0 +1,48 @@
+---
+title: "KM"
+format:
+  html:
+    title-block-banner: "images/Equations_KM_1.jpg"  # 可选：使用图片作为横幅背景
+    title-block-banner-color: "lightblue"  # 根据背景图调整文字颜色，"dark" 或 "light"
+    toc: false
+    page-layout: full
+    css: styles.css
+---
+
+::: {#index-grid}
+::: {.grid}
+::: {.g-col-12 .g-col-md-4 .order-md-last .text-center}
+![](images/bio-photo.jpg){.rounded-circle width="85%"}
+
+### Ke (Mark) Ma
+**PhD Candidate in Astrophysics**  
+University of Nottingham
+
+[📧 Email](mailto:markma501x@gmail.com){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
+[💻 GitHub](https://github.com/Mark-Ke-MA){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
+[📚 Scholar](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
+[🔬 Research Gate](https://www.researchgate.net/profile/Ke-Ma-95){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
+[🔖 ORCID](https://orcid.org/0000-0002-0564-891X){.btn .btn-outline-dark .btn-sm .mb-2}
+:::
+
+::: {.g-col-12 .g-col-md-8}
+# Hi, I'm Ke (Mark) Ma {.display-5}
+
+I am a PhD candidate in Astrophysics at the University of Nottingham, working with Prof. James S. Bolton. My research focuses on testing cosmological models using the intergalactic medium (IGM) and the Lyman-alpha forest.
+
+My primary research interests include:  
+- The Lyman-alpha forest and its cosmological applications  
+- Physics and dynamics of the intergalactic medium (IGM)  
+- The epoch of reionization and high-redshift galaxies  
+
+With experience in both numerical simulations and observational astronomy, I am particularly interested in bridging theoretical and observational approaches to advance our understanding of the universe.
+
+**Keywords:** Cosmology, IGM, Lyman-alpha Forest, Reionization, High-Redshift Galaxies, Hydrodynamical Simulations, Spectroscopic Observations.
+:::
+:::
+:::
+
+:::{.callout-note}
+## Current Focus
+I am currently developing a pipline for generating QSO spectra mocks to make forecasts for future spectroscopic surveys.
+:::

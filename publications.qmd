@@ -1,0 +1,59 @@
+---
+title: "KM"
+page-navigation: true
+format:
+  html:
+    title-block-banner: "images/Equations_KM_3.jpg"  # 可选：使用图片作为横幅背景
+    title-block-banner-color: "lightblue"  # 根据背景图调整文字颜色，"dark" 或 "light"
+    toc: false
+    page-layout: full
+    css: styles.css
+---
+
+# Publications
+
+## Links
+
+- **Google Scholar:** [https://scholar.google.com/citations?user=8XiAuuIAAAAJ](https://scholar.google.com/citations?user=8XiAuuIAAAAJ)  
+- **Research Gate:** [https://www.researchgate.net/profile/Ke-Ma-95](https://www.researchgate.net/profile/Ke-Ma-95)  
+- **ORCID:** [https://orcid.org/0000-0002-0564-891X](https://orcid.org/0000-0002-0564-891X)  
+
+## Journal Articles
+
+### An improved model for the effect of correlated Si-III absorption on the one-dimensional Lyman-α forest power spectrum    
+**Authors**: Ke Ma, James S. Bolton, Vid Irsic, Prakash Gaikwad, Ewald Puchwein  
+**Year**: 2025  
+**Status**: Submitted to MNRAS    
+**Links**: [arXiv:2509.08613](https://arxiv.org/abs/2509.08613)
+
+---
+
+### MAMMOTH-Subaru. V. Effect of cosmic variance on Lyα luminosity functions at z= 2.2-2.3  
+**Authors**: Ke Ma, Haibin Zhang, Zheng Cai, Yongming Liang, Nobunari Kashhikawa, Mingyu Li, Yunjing Wu, Qiong Li, Xiaohui Fan, Sean D. Johnson, Masami Ouchi  
+**Year**: 2024  
+**Status**: Accepted by ApJ  
+**Links**: [Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad04da/meta) | [arXiv:2301.07360](https://arxiv.org/abs/2301.07360)  
+
+---
+
+### MAMMOTH-Subaru. IV. Large scale structure and clustering analysis of Lyα emitters and Lyα blobs at z= 2.2-2.3  
+**Authors**: Haibin Zhang, Zheng Cai, Mingyu Li, Yongming Liang, Nobunari Kashhikawa, Ke Ma, Yunjing Wu, Qiong Li, Sean D. Johnson, Satoshi Kikuta, Masami Ouchi, Xiaohui Fan  
+**Year**: 2025  
+**Status**: Accepted by ApJ   
+**Links**: [Journal](https://iopscience.iop.org/article/10.3847/1538-4357/adb41b/meta) | [arXiv:2301.07359](https://arxiv.org/abs/2301.07359) 
+
+---
+
+### MAMMOTH-Subaru. III. Lyα Halo identified by stacking ~3300 Lyα emitters at z= 2.2-2.3
+**Authors**: Haibin Zhang, Zheng Cai, Yongming Liang, Ke Ma, Nobunari Kashikawa, Mingyu Li, Yunjing Wu, Qiong Li, Sean D. Johnson, Masami Ouchi, Xiaohui Fan  
+**Year**: 2024  
+**Status**: Accepted by ApJ   
+**Links**: [Journal](https://iopscience.iop.org/article/10.3847/1538-4357/ad07d3/meta) | [arXiv:2301.07358](https://arxiv.org/abs/2301.07358)  
+
+---
+
+### MAMMOTH-Subaru. II. Diverse populations of circumgalactic Lyα nebulae at cosmic noon
+**Authors**: Mingyu Li, Haibin Zhang, Zheng Cai, Yongming Liang, Nobunari Kashikawa, Ke Ma, Xiaohui Fan, J Xavier Prochaska, Bjorn HC Emonts, Xin Wang, Yunjing Wu, Shiwu Zhang, Qiong Li, Sean D Johnson, Minghao Yue, Fabrizio Arrigoni Battaia, Sebastiano Cantalupo, Joseph F Hennawi, Satoshi Kikuta, Yuanhang Ning, Masami Ouchi, Rhythm Shimakawa, Ben Wang, Weichen Wang, Zheng Zheng, Zhen-Ya Zheng 
+**Year**: 2024  
+**Status**: Accepted by ApJ   
+**Links**: [Journal](https://iopscience.iop.org/article/10.3847/1538-4365/ad812c/meta) | [arXiv:2405.13113](https://arxiv.org/abs/2405.13113)  

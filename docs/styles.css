@@ -1,0 +1,17 @@
+#index-grid .g-col-md-8 p {
+  font-size: 0.4em;
+}
+
+.quarto-title-block .quarto-title-banner {
+    background-size: contain;
+    padding-top: 6em;
+    padding-bottom: 8em;
+}
+
+.quarto-title-block {
+  height: 200px;
+}
+
+.quarto-title > .title {
+    display: none;
+}
