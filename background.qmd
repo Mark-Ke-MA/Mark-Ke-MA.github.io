@@ -3,7 +3,7 @@ title: "KM"
 page-navigation: true
 format:
   html:
-    title-block-banner: "images/Equations_KM_2.jpg"  # 可选：使用图片作为横幅背景
+    title-block-banner: "images/Equations_KM_2_compressed.jpg"  # 可选：使用图片作为横幅背景
     title-block-banner-color: "lightblue"  # 根据背景图调整文字颜色，"dark" 或 "light"
     toc: false
     page-layout: full
