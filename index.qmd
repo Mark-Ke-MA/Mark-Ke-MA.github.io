@@ -1,5 +1,5 @@
 ---
-title: "KM"
+title: "Ke Ma PhD Nottingham Astro"
 format:
   html:
     title-block-banner: "images/Equations_KM_1_compressed.jpg"  # 可选：使用图片作为横幅背景
@@ -23,6 +23,7 @@ University of Nottingham
 [📚 Scholar](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
 [🔬 Research Gate](https://www.researchgate.net/profile/Ke-Ma-95){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
 [🔖 ORCID](https://orcid.org/0000-0002-0564-891X){.btn .btn-outline-dark .btn-sm .mb-2}
+[📄 CV](CV_Ke_Ma_2025.pdf){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
 :::
 
 ::: {.g-col-12 .g-col-md-8}

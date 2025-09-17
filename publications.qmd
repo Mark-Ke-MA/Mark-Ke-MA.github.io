@@ -1,5 +1,5 @@
 ---
-title: "KM"
+title: "Ke Ma Mark 马可 Astronomy"
 page-navigation: true
 format:
   html:
@@ -53,7 +53,7 @@ format:
 ---
 
 ### MAMMOTH-Subaru. II. Diverse populations of circumgalactic Lyα nebulae at cosmic noon
-**Authors**: Mingyu Li, Haibin Zhang, Zheng Cai, Yongming Liang, Nobunari Kashikawa, Ke Ma, Xiaohui Fan, J Xavier Prochaska, Bjorn HC Emonts, Xin Wang, Yunjing Wu, Shiwu Zhang, Qiong Li, Sean D Johnson, Minghao Yue, Fabrizio Arrigoni Battaia, Sebastiano Cantalupo, Joseph F Hennawi, Satoshi Kikuta, Yuanhang Ning, Masami Ouchi, Rhythm Shimakawa, Ben Wang, Weichen Wang, Zheng Zheng, Zhen-Ya Zheng 
+**Authors**: Mingyu Li, Haibin Zhang, Zheng Cai, Yongming Liang, Nobunari Kashikawa, Ke Ma, Xiaohui Fan, J Xavier Prochaska, Bjorn HC Emonts, Xin Wang, Yunjing Wu, Shiwu Zhang, Qiong Li, Sean D Johnson, Minghao Yue, Fabrizio Arrigoni Battaia, Sebastiano Cantalupo, Joseph F Hennawi, Satoshi Kikuta, Yuanhang Ning, Masami Ouchi, Rhythm Shimakawa, Ben Wang, Weichen Wang, Zheng Zheng, Zhen-Ya Zheng  
 **Year**: 2024  
 **Status**: Accepted by ApJ   
 **Links**: [Journal](https://iopscience.iop.org/article/10.3847/1538-4365/ad812c/meta) | [arXiv:2405.13113](https://arxiv.org/abs/2405.13113)  
