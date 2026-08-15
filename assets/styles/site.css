@@ -577,37 +577,6 @@ main.content {
   isolation: isolate;
 }
 
-.foyer-portal::before {
-  content: "";
-  position: absolute;
-  z-index: -2;
-  inset: 0;
-  opacity: 0.5;
-  background-position: center;
-  background-size: cover;
-  transition: transform 450ms ease;
-}
-
-.foyer-portal::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(32, 25, 30, 0.12), rgba(32, 25, 30, 0.92) 82%);
-}
-
-.foyer-poetry::before {
-  background-image: url("../images/personal/foyer-poetry.jpg");
-}
-
-.foyer-artwork::before {
-  background-image: url("../images/personal/foyer-artwork.jpg");
-}
-
-.foyer-portal:hover::before {
-  transform: scale(1.018);
-}
-
 .foyer-index {
   color: #d5b9c1;
 }
@@ -1152,8 +1121,8 @@ main.content {
 /* Academic home ---------------------------------------------------------- */
 
 .academic-home .academic-hero {
-  min-height: min(47rem, calc(100vh - var(--header-height)));
-  padding: clamp(5.5rem, 10vw, 8.2rem) clamp(2rem, 6vw, 4.5rem) clamp(4.5rem, 8vw, 6.5rem);
+  min-height: min(43rem, calc(100vh - var(--header-height)));
+  padding: clamp(4.5rem, 8vw, 6.5rem) clamp(2rem, 6vw, 4.5rem) clamp(3.8rem, 6vw, 5.2rem);
   display: grid;
   align-items: center;
   isolation: isolate;
@@ -1163,7 +1132,7 @@ main.content {
   content: "";
   position: absolute;
   z-index: -2;
-  inset: 2.2rem 0;
+  inset: 1.6rem 0;
   border: 1px solid rgba(49, 94, 168, 0.16);
   border-radius: 2rem;
   background:
@@ -1203,10 +1172,10 @@ main.content {
   position: relative;
   z-index: 1;
   max-width: 58%;
-  margin: 1.45rem 0 0;
+  margin: 1.15rem 0 0;
   color: #b9c6dc;
   font-size: 1.04rem;
-  line-height: 1.72;
+  line-height: 1.65;
 }
 
 .academic-home .hero-actions,
@@ -1242,8 +1211,8 @@ main.content {
   position: relative;
   z-index: 1;
   width: min(100%, 45rem);
-  margin-top: clamp(2.7rem, 5vw, 4.2rem);
-  padding-top: 1.2rem;
+  margin-top: clamp(2.1rem, 4vw, 3.1rem);
+  padding-top: 0.95rem;
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -1277,13 +1246,13 @@ main.content {
 .academic-section {
   width: min(calc(100% - 2rem), var(--page-width));
   margin-inline: auto;
-  padding: clamp(5.5rem, 10vw, 8.5rem) 0;
+  padding: clamp(4.25rem, 7.5vw, 6.5rem) 0;
   scroll-margin-top: 2rem;
 }
 
 .section-header {
   max-width: 50rem;
-  margin-bottom: clamp(2.5rem, 5vw, 4.5rem);
+  margin-bottom: clamp(2rem, 3.5vw, 3.2rem);
 }
 
 .section-index,
@@ -1299,7 +1268,7 @@ main.content {
 
 .section-header h2,
 .contact-copy h2 {
-  margin: 0.8rem 0 1.15rem;
+  margin: 0.65rem 0 0.9rem;
   color: inherit;
   font-size: clamp(2.35rem, 5.6vw, 4.55rem);
   font-weight: 580;
@@ -1312,16 +1281,16 @@ main.content {
 .contact-copy > p {
   color: var(--academic-muted);
   font-size: 1.04rem;
-  line-height: 1.75;
+  line-height: 1.65;
 }
 
 .featured-research {
   position: relative;
   overflow: hidden;
-  padding: clamp(2rem, 5vw, 4rem);
+  padding: clamp(2rem, 4vw, 3.2rem);
   display: grid;
   grid-template-columns: minmax(0, 1.65fr) minmax(13rem, 0.72fr);
-  gap: clamp(2.5rem, 6vw, 6rem);
+  gap: clamp(2.25rem, 4.5vw, 4.5rem);
   color: #eef4ff;
   border-radius: 1.8rem;
   background:
@@ -1342,7 +1311,7 @@ main.content {
 
 .featured-copy h3 {
   max-width: 46rem;
-  margin: 0.85rem 0 1.2rem;
+  margin: 0.75rem 0 1rem;
   color: #fff;
   font-size: clamp(1.8rem, 3.5vw, 3rem);
   font-weight: 560;
@@ -1353,7 +1322,7 @@ main.content {
 .featured-copy p {
   max-width: 45rem;
   color: #becae0;
-  line-height: 1.75;
+  line-height: 1.65;
 }
 
 .featured-copy a {
@@ -1366,7 +1335,7 @@ main.content {
 }
 
 .featured-metrics {
-  padding: 0.7rem 1.2rem;
+  padding: 0.45rem 1.1rem;
   display: grid;
   align-content: center;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -1376,7 +1345,7 @@ main.content {
 }
 
 .metric {
-  padding: 1rem 0;
+  padding: 0.82rem 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.16);
   color: #aebbd2;
   font-size: 0.78rem;
@@ -1407,8 +1376,8 @@ main.content {
 }
 
 .research-card {
-  min-height: 18rem;
-  padding: 1.7rem;
+  min-height: 16rem;
+  padding: 1.55rem;
   border: 1px solid var(--line);
   border-radius: 1.25rem;
   background: rgba(255, 255, 255, 0.65);
@@ -1422,7 +1391,7 @@ main.content {
 }
 
 .research-card h3 {
-  margin: 1.8rem 0 0.75rem;
+  margin: 1.35rem 0 0.65rem;
   color: inherit;
   font-size: 1.35rem;
   letter-spacing: -0.025em;
@@ -1434,7 +1403,7 @@ main.content {
 }
 
 .research-card p:last-child {
-  margin-top: 1.6rem;
+  margin-top: 1.2rem;
   color: #46526a;
   font-size: 0.82rem;
 }
@@ -1486,6 +1455,26 @@ main.content {
   color: #a8c8ff;
 }
 
+#publications {
+  padding-block: clamp(3rem, 5vw, 4.4rem);
+}
+
+#publications .section-header {
+  margin-bottom: clamp(1.4rem, 2.4vw, 2rem);
+}
+
+#publications .publication-item {
+  padding-block: 1.15rem;
+}
+
+#publications .publication-featured {
+  padding-block: 1.35rem;
+}
+
+#publications .publication-more {
+  margin-top: 0.9rem;
+}
+
 .section-header-split {
   max-width: none;
   display: grid;
@@ -1503,7 +1492,7 @@ main.content {
 }
 
 .publication-item {
-  padding: 1.8rem 0;
+  padding: 1.5rem 0;
   display: grid;
   grid-template-columns: 5rem minmax(0, 1fr);
   gap: clamp(1.2rem, 4vw, 3rem);
@@ -1511,7 +1500,7 @@ main.content {
 }
 
 .publication-featured {
-  padding-block: 2.3rem;
+  padding-block: 1.8rem;
 }
 
 .publication-year {
@@ -1544,29 +1533,29 @@ main.content {
 }
 
 .publication-more {
-  margin-top: 2.1rem;
+  margin-top: 1.55rem;
   text-align: right;
 }
 
 .profile-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 0.8fr);
-  gap: clamp(3rem, 8vw, 8rem);
+  gap: clamp(2.5rem, 6vw, 6rem);
 }
 
 #profile {
-  padding-bottom: clamp(2.5rem, 5vw, 4rem);
+  padding-bottom: clamp(2.25rem, 4vw, 3.25rem);
 }
 
 .profile-statement > p {
   margin-top: 0;
   color: #44516a;
   font-size: clamp(1.08rem, 2vw, 1.28rem);
-  line-height: 1.8;
+  line-height: 1.7;
 }
 
 .profile-note {
-  margin-top: 2.5rem;
+  margin-top: 1.9rem;
   padding: 1.1rem 1.25rem;
   border-left: 3px solid var(--academic-blue);
   background: var(--academic-pale);
@@ -1584,7 +1573,7 @@ main.content {
 }
 
 .journey-item {
-  padding: 1.2rem 0;
+  padding: 1rem 0;
   border-bottom: 1px solid var(--line);
   color: var(--academic-muted);
   font-size: 0.88rem;
@@ -1604,16 +1593,16 @@ main.content {
 }
 
 .profile-extras {
-  margin-top: clamp(2.8rem, 6vw, 5rem);
-  padding-top: clamp(2rem, 4vw, 3rem);
+  margin-top: clamp(2.2rem, 4.5vw, 3.8rem);
+  padding-top: clamp(1.7rem, 3vw, 2.4rem);
   display: grid;
   grid-template-columns: minmax(0, 1.55fr) minmax(17rem, 0.55fr);
-  gap: clamp(2.5rem, 6vw, 5rem);
+  gap: clamp(2.25rem, 4.5vw, 4rem);
   border-top: 1px solid var(--line);
 }
 
 .profile-extras h3 {
-  margin: 0 0 1.35rem;
+  margin: 0 0 1rem;
   color: var(--academic-ink);
   font-size: 1rem;
   font-weight: 720;
@@ -1667,17 +1656,18 @@ main.content {
 }
 
 .contact-section {
-  padding-top: clamp(2.5rem, 5vw, 4rem);
+  padding-top: clamp(2rem, 3.5vw, 3rem);
+  padding-bottom: clamp(3.25rem, 5.5vw, 4.75rem);
 }
 
 .contact-panel {
   position: relative;
   isolation: isolate;
   overflow: hidden;
-  padding: clamp(2rem, 6vw, 5rem);
+  padding: clamp(2rem, 4.5vw, 3.75rem);
   display: grid;
   grid-template-columns: minmax(0, 1.25fr) minmax(16rem, 0.55fr);
-  gap: clamp(3rem, 8vw, 8rem);
+  gap: clamp(2.5rem, 5.5vw, 5rem);
   color: #eef4ff;
   border-radius: 1.8rem;
   background:
@@ -1692,6 +1682,7 @@ main.content {
 
 .contact-copy h2 {
   color: #fff;
+  font-size: clamp(2.25rem, 4.7vw, 3.85rem);
 }
 
 .contact-copy > p {
@@ -1811,8 +1802,8 @@ main.content {
   }
 
   .academic-home .academic-hero {
-    min-height: 43rem;
-    padding: 4.6rem 1rem 3.8rem;
+    min-height: 40rem;
+    padding: 4.1rem 1rem 3.25rem;
   }
 
   .academic-home .academic-hero::before {
@@ -1852,6 +1843,10 @@ main.content {
     max-width: 100%;
   }
 
+  .academic-section {
+    padding-block: 3.6rem;
+  }
+
   .hero-facts {
     grid-template-columns: 1fr;
     gap: 0;
@@ -1874,6 +1869,11 @@ main.content {
   .profile-extras,
   .contact-panel {
     grid-template-columns: 1fr;
+  }
+
+  .featured-research,
+  .contact-panel {
+    gap: 1.9rem;
   }
 
   .honours-list {
@@ -1911,6 +1911,7 @@ main.content {
 
   .research-grid {
     grid-template-columns: 1fr;
+    gap: 0.8rem;
   }
 
   .research-card {
@@ -1918,12 +1919,17 @@ main.content {
   }
 
   .section-side-note {
-    margin-top: -2rem;
+    margin-top: -1.25rem;
   }
 
   .publication-item {
+    padding-block: 1.3rem;
     grid-template-columns: 1fr;
     gap: 0.55rem;
+  }
+
+  .publication-featured {
+    padding-block: 1.55rem;
   }
 
   .publication-year {
@@ -1954,10 +1960,6 @@ main.content {
   .foyer-portal {
     min-height: 20rem;
     padding: 1.7rem;
-  }
-
-  .foyer-portal::after {
-    background: linear-gradient(180deg, rgba(32, 25, 30, 0.2), rgba(32, 25, 30, 0.96));
   }
 
   .foyer-portal h2 {
