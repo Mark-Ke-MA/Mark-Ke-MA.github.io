@@ -1,0 +1,28 @@
+---
+title: "画作 — 马可"
+description: "马可的完整滚动画廊。"
+lang: zh
+body-classes: "personal-mode lang-zh collection-page artwork-page"
+---
+
+::: {.collection-top-navigation}
+[← 返回个人主页](/personal/){.personal-arrow-link}
+[前往诗词 →](/personal/poetry/){.personal-arrow-link}
+:::
+
+::: {.collection-intro .personal-collection-intro}
+::: {.eyebrow}
+Personal · Artwork
+:::
+
+# 画作
+
+这些年画下的一些东西，按喜欢的顺序放在这里。
+:::
+
+{{< include ../_shared/artwork-content.qmd >}}
+
+::: {.collection-navigation}
+[← 返回个人主页](/personal/){.personal-arrow-link}
+[查看版权声明 →](/personal/copyright/){.personal-arrow-link}
+:::

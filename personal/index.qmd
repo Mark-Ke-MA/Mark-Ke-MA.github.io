@@ -1,0 +1,50 @@
+---
+title: "马可 — 个人作品"
+description: "马可的诗词与画作。"
+lang: zh
+body-classes: "personal-mode lang-zh personal-home"
+---
+
+::: {.personal-foyer}
+::: {.foyer-intro}
+::: {.personal-overline}
+PERSONAL WORKS · 个人作品
+:::
+
+# 诗词与画作
+
+这些年写下的、画下的一些东西。
+:::
+
+::: {.foyer-portals}
+::: {.foyer-portal .foyer-poetry}
+::: {.foyer-index}
+01 · POETRY
+:::
+
+## 诗词
+
+新的在前，旧的在后。
+
+[进入诗集 →](/personal/poetry/){.foyer-link}
+:::
+
+::: {.foyer-portal .foyer-artwork}
+::: {.foyer-index}
+02 · ARTWORK
+:::
+
+## 画作
+
+按喜欢的顺序放在这里。
+
+[进入画廊 →](/personal/artwork/){.foyer-link}
+:::
+:::
+
+::: {.foyer-footer}
+© 2026 马可
+
+[版权声明 →](/personal/copyright/){.foyer-copyright-link}
+:::
+:::

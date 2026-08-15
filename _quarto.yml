@@ -1,38 +1,46 @@
 project:
   type: website
-  output-dir: docs
-  
+  output-dir: _site
+  resources:
+    - assets/images/**
+    - assets/cv/**
+  render:
+    - index.qmd
+    - zh/index.qmd
+    - personal/index.qmd
+    - personal/en/index.qmd
+    - personal/en/poetry/index.qmd
+    - personal/en/artwork/index.qmd
+    - personal/en/copyright/index.qmd
+    - personal/poetry/index.qmd
+    - personal/artwork/index.qmd
+    - personal/copyright/index.qmd
+    - 404.qmd
+
 website:
-  page-navigation: true
   title: "Ke (Mark) Ma"
-  site-url: https://Mark-Ke-MA.github.io
-  favicon: images/site-logo.png
-  repo-url: https://github.com/Mark-Ke-MA/Mark-Ke-MA.github.io
-  #repo-actions: [edit, issue]
-  
-  page-footer:
-    left: |
-      © 2025 <a href="mailto:markma501x@gmail.com">马可 (Ke Ma)</a>。本站所有内容及原创图片版权均归作者所有。  
-      © 2025 <a href="mailto:markma501x@gmail.com">Ke Ma</a>. All website content and original artwork rights reserved.<br>
-    right: |
-      Made with [Quarto](https://quarto.org/)<br>
-    
-  navbar: 
-    background: "#253D83"
-    search: true
-    right: 
-      - text: "Home"
-        href: index.qmd
-      - text: "Background"
-        href: background.qmd
-      - text: "Publications"
-        href: publications.qmd
-      - text: "Awards"
-        href: awards.qmd
+  site-url: "https://mark-ke-ma.github.io"
+  description: "The academic and personal website of Ke (Mark) Ma."
+  favicon: assets/brand/monogram.svg
+  page-navigation: true
+  search: false
+  navbar: false
+  open-graph: true
+  twitter-card: true
 
 format:
   html:
-    theme: styles.scss
-    toc: true            # 启用目录
-    toc-position: right  # 将目录放置在页面的右侧
-    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
+    theme: none
+    css: assets/styles/site.css
+    toc: false
+    anchor-sections: false
+    smooth-scroll: true
+    include-in-header:
+      - _includes/head.html
+    include-before-body:
+      - _includes/site-header.html
+    include-after-body:
+      - _includes/site-footer.html
+
+execute:
+  freeze: auto

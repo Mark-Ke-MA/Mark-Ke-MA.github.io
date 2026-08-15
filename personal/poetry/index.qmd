@@ -1,0 +1,28 @@
+---
+title: "诗词 — 马可"
+description: "马可的完整滚动诗集。"
+lang: zh
+body-classes: "personal-mode lang-zh collection-page poetry-page"
+---
+
+::: {.collection-top-navigation}
+[← 返回个人主页](/personal/){.personal-arrow-link}
+[前往画廊 →](/personal/artwork/){.personal-arrow-link}
+:::
+
+::: {.collection-intro .personal-collection-intro}
+::: {.eyebrow}
+Personal · Poetry
+:::
+
+# 诗词
+
+这些年写下的一些诗。新的在前，旧的在后。
+:::
+
+{{< include ../_shared/poetry-content.qmd >}}
+
+::: {.collection-navigation}
+[← 返回个人主页](/personal/){.personal-arrow-link}
+[继续进入画廊 →](/personal/artwork/){.personal-arrow-link}
+:::

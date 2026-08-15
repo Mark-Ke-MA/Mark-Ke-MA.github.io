@@ -1,0 +1,89 @@
+---
+title: "Copyright Notice — Ke Ma"
+description: "Copyright notice for the personal works of Ke Ma."
+lang: en
+body-classes: "personal-mode lang-en collection-page legal-page"
+---
+
+::: {.collection-intro .personal-collection-intro}
+::: {.eyebrow}
+Personal · Copyright
+:::
+
+# Copyright Notice
+
+The works on this website are publicly displayed, but no licence is granted to copy, republish, adapt or reuse them. All rights are reserved except where applicable law expressly permits otherwise.
+:::
+
+::: {.legal-summary-grid}
+::: {.legal-summary-item}
+::: {.legal-index}
+01
+:::
+
+### View and share original links
+
+You are welcome to view this website and share links to the original pages of its works.
+:::
+
+::: {.legal-summary-item}
+::: {.legal-index}
+02
+:::
+
+### Lawful quotation with attribution
+
+Where quotation is permitted by applicable law, retain the author's name, the work's title and a link to its original page.
+:::
+
+::: {.legal-summary-item}
+::: {.legal-index}
+03
+:::
+
+### No other use is licensed
+
+No permission is granted for full republication, re-uploading, adaptation, commercial use, or data and artificial-intelligence uses.
+:::
+:::
+
+::: {.legal-body}
+## Rights and ownership
+
+Unless otherwise identified, the original poetry, artwork and related writing displayed on this website are works by Ke Ma (马可). Public display does not grant permission to copy or reuse them.
+
+© 2026 Ke Ma (马可). All rights reserved.
+
+The website's original source code and visual design are not offered for reuse. Third-party components, fonts and external materials remain subject to their respective rights and licence terms.
+
+## Viewing, links and quotation
+
+You are welcome to view this website and share links to the original pages of its works.
+
+This notice does not restrict fair dealing, fair use, quotation or any other use expressly permitted by applicable law. Where a work is lawfully quoted, identify the author, the title of the work and its original page URL, and do not quote more than is necessary for the specific purpose.
+
+## No licence for other use
+
+No licence is granted to reproduce a work in full, re-upload it, communicate it to the public, adapt or translate it, create derivative works from it, print or distribute it, or use it commercially.
+
+## Data, automated collection and artificial intelligence
+
+No licence is granted to use the original works for dataset construction, automated bulk collection, machine-learning or generative-AI training, fine-tuning, evaluation, embedding, retrieval augmentation, or similar computational uses. This does not restrict uses expressly permitted by applicable law where the effect of this notice cannot exclude them.
+
+## Display versions
+
+Images on this website may have been resized, cropped, compressed or supplied with display information. Public webpage files are not original work files and are not offered as reusable assets.
+
+## Third-party material
+
+Papers, external pages, fonts, software components and other third-party material identified or linked on this website remain the property of their respective rights holders. No rights over those materials are asserted by this notice.
+
+::: {.legal-footnote}
+Last updated 15 August 2026.
+:::
+:::
+
+::: {.collection-navigation}
+[← Back to personal home](/personal/en/){.personal-arrow-link}
+[Continue to poetry →](/personal/en/poetry/){.personal-arrow-link}
+:::

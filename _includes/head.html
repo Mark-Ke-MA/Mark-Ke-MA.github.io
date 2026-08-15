@@ -1,0 +1,10 @@
+<meta name="theme-color" content="#101b36">
+<script>
+  (function () {
+    const path = window.location.pathname;
+    const mode = path.startsWith('/personal') ? 'personal' : 'academic';
+    document.documentElement.dataset.mode = mode;
+  })();
+</script>
+<script src="/assets/js/site.js" defer></script>
+

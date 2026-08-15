@@ -1,2 +1,9 @@
 /.quarto/
+/_site/
+/tmp/
+/HUMAN_CONTENT_MAINTENANCE.md
+/.DS_Store
+**/.DS_Store
+*.quarto_ipynb
+
 **/*.quarto_ipynb

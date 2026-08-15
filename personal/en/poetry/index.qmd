@@ -1,0 +1,28 @@
+---
+title: "Poetry — Ke Ma"
+description: "A collection of poetry by Ke Ma, presented in its original Chinese."
+lang: en
+body-classes: "personal-mode lang-en collection-page poetry-page"
+---
+
+::: {.collection-top-navigation}
+[← Back to personal home](/personal/en/){.personal-arrow-link}
+[View artwork →](/personal/en/artwork/){.personal-arrow-link}
+:::
+
+::: {.collection-intro .personal-collection-intro}
+::: {.eyebrow}
+Personal · Poetry
+:::
+
+# Poetry
+
+Poems written over the years, with newer pieces first. They are presented in their original Chinese; no translations are provided.
+:::
+
+{{< include ../../_shared/poetry-content.qmd >}}
+
+::: {.collection-navigation}
+[← Back to personal home](/personal/en/){.personal-arrow-link}
+[Continue to artwork →](/personal/en/artwork/){.personal-arrow-link}
+:::

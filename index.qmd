@@ -1,49 +1,292 @@
 ---
-title: "Ke Ma PhD Nottingham Astro"
-format:
-  html:
-    title-block-banner: "images/Equations_KM_1_compressed.jpg"  # 可选：使用图片作为横幅背景
-    title-block-banner-color: "lightblue"  # 根据背景图调整文字颜色，"dark" 或 "light"
-    toc: false
-    page-layout: full
-    css: styles.css
+title: "Ke (Mark) Ma — Astrophysicist"
+description: "Ke Ma is an astrophysics PhD researcher working on the Lyman-alpha forest, the intergalactic medium, high-redshift surveys and scientific inference."
+lang: en
+body-classes: "academic-mode academic-home lang-en"
 ---
 
-::: {#index-grid}
-::: {.grid}
-::: {.g-col-12 .g-col-md-4 .order-md-last .text-center}
-![](images/bio-photo.jpg){.rounded-circle width="85%"}
-
-### Ke (Mark) Ma
-**PhD Candidate in Astrophysics**  
-University of Nottingham
-
-[📧 Email](mailto:markma501x@gmail.com){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
-[💻 GitHub](https://github.com/Mark-Ke-MA){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
-[📚 Scholar](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
-[🔬 Research Gate](https://www.researchgate.net/profile/Ke-Ma-95){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
-[🔖 ORCID](https://orcid.org/0000-0002-0564-891X){.btn .btn-outline-dark .btn-sm .mb-2}
-[📄 CV](CV_Ke_Ma_2025.pdf){.btn .btn-outline-dark .btn-sm .me-1 .mb-2} 
+::: {.hero .academic-hero}
+::: {.hero-copy}
+::: {.hero-kicker}
+PhD researcher · University of Nottingham
 :::
 
-::: {.g-col-12 .g-col-md-8}
-# Hi, I'm Ke (Mark) Ma {.display-5}
+# Ke (Mark) Ma
 
-I am a PhD candidate in Astrophysics at the University of Nottingham, working with Prof. James S. Bolton. My research focuses on testing cosmological models using the intergalactic medium (IGM) and the Lyman-alpha forest.
+## Reading the high-redshift Universe through simulated spectra, power spectra and statistical inference.
 
-My primary research interests include:  
-- The Lyman-alpha forest and its cosmological applications  
-- Physics and dynamics of the intergalactic medium (IGM)  
-- The epoch of reionization and high-redshift galaxies  
+I am an astrophysicist working with **Prof. James S. Bolton** on the Lyman-α forest and the intergalactic medium. My research connects physical modelling, survey-forward simulations and uncertainty-aware inference to ask what future observations can reveal about cosmic reionization and metal enrichment.
 
-With experience in both numerical simulations and observational astronomy, I am particularly interested in bridging theoretical and observational approaches to advance our understanding of the universe.
+::: {.hero-actions}
+[Explore my research](#research){.button .button-primary}
+[Latest preprint](https://arxiv.org/abs/2608.13153){.button .button-quiet target="_blank" rel="noopener"}
+:::
 
-**Keywords:** Cosmology, IGM, Lyman-alpha Forest, Reionization, High-Redshift Galaxies, Hydrodynamical Simulations, Spectroscopic Observations.
+::: {.hero-facts aria-label="Profile summary"}
+::: {.hero-fact}
+**Nottingham, UK**
+
+Current base
+:::
+::: {.hero-fact}
+**2023–2027**
+
+Astrophysics PhD
+:::
+::: {.hero-fact}
+**Lyα · IGM · Reionization**
+
+Research focus
+:::
+:::
+:::
+:::
+
+::: {#research .academic-section}
+::: {.section-header}
+::: {.section-index}
+01 · Research
+:::
+
+## From simulated light to physical constraints
+
+My work treats the Lyα forest not as a single observable, but as a chain: from the physics of the intergalactic medium, through simulated spectra and survey effects, to statistical measurements and parameter constraints.
+:::
+
+::: {.featured-research}
+::: {.featured-copy}
+::: {.research-status}
+Latest · Lead-author preprint
+:::
+
+### Can WEAVE-QSO detect relics of patchy reionization?
+
+I developed a forecast workflow for the one-dimensional Lyα forest power spectrum at $z \geq 4$. Using Sherwood-Relics simulations and WEAVE-QSO-like mock spectra, the analysis propagates survey statistics, instrumental effects and astrophysical contaminants into a covariance-aware Bayesian forecast.
+
+The adopted survey model predicts that the large-scale imprint of patchy hydrogen reionization should be detectable at approximately **4.5σ**.
+
+[Read arXiv:2608.13153 →](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
+:::
+
+::: {.featured-metrics aria-label="WEAVE-QSO research summary"}
+::: {.metric}
+**4**
+
+redshift bins, $z=4.0$–$4.6$
+:::
+::: {.metric}
+**P1D**
+
+Lyα forest power spectrum
+:::
+::: {.metric}
+**4.5σ**
+
+forecast detectability
 :::
 :::
 :::
 
-:::{.callout-note}
-## Current Focus
-I am currently developing a pipline for generating QSO spectra mocks to make forecasts for future spectroscopic surveys.
+::: {.research-grid}
+::: {.research-card}
+::: {.card-number}
+01
+:::
+
+### Survey-forward modelling
+
+Mock QSO spectra, instrumental resolution, noise, continuum uncertainty, metal contamination and high-column-density absorbers are carried into the same forecast framework.
+
+**Methods:** Python · simulation-derived spectra · covariance · MCMC
+:::
+
+::: {.research-card}
+::: {.card-number}
+02
+:::
+
+### Precision Lyα forest systematics
+
+I derived and validated a four-parameter model for correlated Si III absorption in the Lyα forest power spectrum across **375** simulation variants.
+
+**Outcome:** first-author paper published in *MNRAS*
+:::
+
+::: {.research-card}
+::: {.card-number}
+03
+:::
+
+### IGM metal enrichment
+
+My current work combines Si III power-spectrum signatures with Si IV absorber statistics to constrain silicon abundance, its density dependence and UV-background assumptions.
+
+**Status:** ongoing PhD research
+:::
+:::
+:::
+
+::: {#publications .academic-section .section-tinted}
+::: {.section-header .section-header-split}
+::: {}
+::: {.section-index}
+02 · Selected work
+:::
+
+## Publications {#publications-heading}
+:::
+
+::: {.section-side-note}
+Lead-author work spanning survey forecasts, precision modelling and observational astronomy.
+:::
+:::
+
+::: {.publication-list}
+::: {.publication-item .publication-featured}
+::: {.publication-year}
+2026
+:::
+::: {.publication-body}
+### Forecast for the detectability of patchy hydrogen reionization in WEAVE-QSO measurements of the Lyman-α forest power spectrum at redshift $z \geq 4$
+
+**Ke Ma** et al. · Submitted to *MNRAS* · Lead author
+
+[arXiv](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"} [PDF](https://arxiv.org/pdf/2608.13153){target="_blank" rel="noopener"}
+:::
+:::
+
+::: {.publication-item}
+::: {.publication-year}
+2025
+:::
+::: {.publication-body}
+### An improved model for the effect of correlated Si III absorption on the 1D Lyα forest power spectrum
+
+**Ke Ma** et al. · *Monthly Notices of the Royal Astronomical Society* · Lead author
+
+[Journal](https://doi.org/10.1093/mnras/staf2262){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2509.08613){target="_blank" rel="noopener"}
+:::
+:::
+
+::: {.publication-item}
+::: {.publication-year}
+2024
+:::
+::: {.publication-body}
+### MAMMOTH-Subaru V. Effect of cosmic variance on Lyα luminosity functions at $z=2.2$–$2.3$
+
+**Ke Ma** et al. · *The Astrophysical Journal* · Lead author
+
+[Journal](https://doi.org/10.3847/1538-4357/ad04da){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2301.07360){target="_blank" rel="noopener"}
+:::
+:::
+:::
+
+::: {.publication-more}
+[View the full record on Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
+:::
+:::
+
+::: {#profile .academic-section}
+::: {.section-header}
+::: {.section-index}
+03 · Profile
+:::
+
+## A path across theory, observations and inference
+:::
+
+::: {.profile-layout}
+::: {.profile-statement}
+I trained in theoretical physics at **University College London**, moved into observational astronomy as a research assistant at **Tsinghua University**, and now work at the intersection of simulations and spectra during my PhD at **Nottingham**.
+
+That route has made crossing methodological boundaries a defining part of how I work: deriving a model, implementing the numerical analysis, testing it against simulations or data, and turning the result into a clear scientific argument.
+
+::: {.profile-note}
+**Upcoming:** accepted contributed talk at COSMO-26, Leiden, August 2026.
+:::
+:::
+
+::: {.journey-list aria-label="Academic trajectory"}
+::: {.journey-item}
+**2023–present**
+
+PhD in Astrophysics  
+University of Nottingham  
+Supervisor: James S. Bolton
+:::
+
+::: {.journey-item}
+**2021–2023**
+
+Research Assistant in Astronomy  
+Tsinghua University  
+First-author ApJ research
+:::
+
+::: {.journey-item}
+**2017–2021**
+
+MSci in Theoretical Physics  
+University College London  
+First Class Honours · 85/100
+:::
+:::
+:::
+
+::: {.profile-extras}
+::: {.honours-block}
+### Selected honours & funding
+
+::: {.honours-list}
+::: {.honour-item}
+**Wood Prize**
+
+Ranked 1st in second-year Physics, UCL Physics & Astronomy
+:::
+
+::: {.honour-item}
+**Faculty Dean’s List**
+
+Top 5% graduating students, UCL Mathematical & Physical Sciences
+:::
+
+::: {.honour-item}
+**CSC Research Excellence Scholarship**
+
+Competitive funding for PhD study at the University of Nottingham
+:::
+:::
+:::
+
+::: {.cv-downloads}
+### Curriculum vitae
+
+::: {.cv-actions}
+[Academic CV (EN) ↓](assets/cv/Ke_Ma_Academic_CV_EN.pdf){.button .button-primary target="_blank" rel="noopener"}
+[Industrial / Quantitative CV (中文) ↓](assets/cv/Ke_Ma_Industrial_Quantitative_CV_CN.pdf){.button .button-quiet target="_blank" rel="noopener"}
+:::
+:::
+:::
+:::
+
+::: {#contact .academic-section .contact-section}
+::: {.contact-panel}
+::: {.contact-copy}
+::: {.section-index}
+04 · Connect
+:::
+
+## Research conversations are welcome.
+
+I welcome conversations around the Lyα forest, high-redshift IGM physics, spectroscopic-survey forecasting, simulation-based inference, and the broader use of quantitative modelling to extract reliable structure from complex data.
+:::
+
+::: {.contact-links aria-label="Professional links"}
+[Email](mailto:kema.career@outlook.com){.contact-link}
+[ORCID](https://orcid.org/0000-0002-0564-891X){.contact-link target="_blank" rel="noopener"}
+[Google Scholar](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){.contact-link target="_blank" rel="noopener"}
+[GitHub](https://github.com/Mark-Ke-MA){.contact-link target="_blank" rel="noopener"}
+:::
+:::
 :::

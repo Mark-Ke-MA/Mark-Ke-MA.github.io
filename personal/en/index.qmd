@@ -1,0 +1,50 @@
+---
+title: "Ke Ma — Personal Works"
+description: "Poetry and artwork by Ke Ma."
+lang: en
+body-classes: "personal-mode lang-en personal-home"
+---
+
+::: {.personal-foyer}
+::: {.foyer-intro}
+::: {.personal-overline}
+PERSONAL WORKS · 马可
+:::
+
+# Poetry & Artwork
+
+Things written and drawn over the years.
+:::
+
+::: {.foyer-portals}
+::: {.foyer-portal .foyer-poetry}
+::: {.foyer-index}
+01 · POETRY
+:::
+
+## Poetry
+
+Newer works first, older works later. Poems remain in their original Chinese.
+
+[Enter the collection →](/personal/en/poetry/){.foyer-link}
+:::
+
+::: {.foyer-portal .foyer-artwork}
+::: {.foyer-index}
+02 · ARTWORK
+:::
+
+## Artwork
+
+Arranged here in a personal order. Original Chinese titles are retained.
+
+[Enter the gallery →](/personal/en/artwork/){.foyer-link}
+:::
+:::
+
+::: {.foyer-footer}
+© 2026 Ke Ma
+
+[Copyright notice →](/personal/en/copyright/){.foyer-copyright-link}
+:::
+:::

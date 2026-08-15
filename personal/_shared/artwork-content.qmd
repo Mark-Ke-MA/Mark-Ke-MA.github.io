@@ -1,0 +1,137 @@
+::: {.artwork-scroll}
+::: {.artwork-series-heading}
+## [宇宙演化史]{.copy-zh}[Cosmic Evolution]{.copy-en}
+:::
+
+::: {.artwork-entry .span-full}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/cosmic-evolution.jpg" alt="宇宙演化史" loading="eager" decoding="async">
+:::
+:::
+
+::: {.artwork-series-heading}
+## [留学三部曲]{.copy-zh}[The Study Abroad Trilogy]{.copy-en}
+:::
+
+::: {.artwork-entry .span-third}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-b-01.jpg" alt="两仪 · 意识 - 痴愚人的理感狂想" loading="lazy" decoding="async">
+:::
+
+::: {.artwork-caption .simple}
+### 两仪 · 意识 - 痴愚人的理感狂想
+:::
+:::
+
+::: {.artwork-entry .span-third}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-b-02.jpg" alt="四象 · 时间 - 留学生的无终轮回" loading="lazy" decoding="async">
+:::
+
+::: {.artwork-caption .simple}
+### 四象 · 时间 - 留学生的无终轮回
+:::
+:::
+
+::: {.artwork-entry .span-third}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-b-03.jpg" alt="八卦 · 空间 - 漂泊者的幻世挽歌" loading="lazy" decoding="async">
+:::
+
+::: {.artwork-caption .simple}
+### 八卦 · 空间 - 漂泊者的幻世挽歌
+:::
+:::
+
+::: {.artwork-series-heading}
+## [公式的艺术]{.copy-zh}[The Art of Equations]{.copy-en}
+:::
+
+::: {.artwork-entry .span-fifth}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-a-06.jpg" alt="本硕收获的知识结晶" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-fifth}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-a-05.jpg" alt="本硕收获的知识结晶" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-fifth}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-a-04.jpg" alt="本硕收获的知识结晶" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-fifth}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-a-03.jpg" alt="本硕收获的知识结晶" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-fifth}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-a-02.jpg" alt="本硕 - 理论物理" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-full}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-a-07.jpg" alt="博士 - 天体物理" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-full}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/group-a-01.jpg" alt="宇宙演化史 - 初稿" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-series-heading}
+## [早期简笔画]{.copy-zh}[Early Sketches]{.copy-en}
+:::
+
+::: {.artwork-entry .span-half}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/notes-01.jpg" alt="早期简笔画" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-half}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/notes-02.jpg" alt="早期简笔画" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-half}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/notes-03.jpg" alt="早期简笔画" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-half}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/notes-04.jpg" alt="早期简笔画" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-half}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/notes-05.jpg" alt="早期简笔画" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-half}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/notes-06.jpg" alt="早期简笔画" loading="lazy" decoding="async">
+:::
+:::
+
+::: {.artwork-entry .span-half}
+::: {.artwork-frame}
+<img src="/assets/images/personal/artwork/notes-07.jpg" alt="早期简笔画" loading="lazy" decoding="async">
+:::
+:::
+:::

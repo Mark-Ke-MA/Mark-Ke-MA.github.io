@@ -1,0 +1,28 @@
+---
+title: "Artwork — Ke Ma"
+description: "A gallery of artwork by Ke Ma."
+lang: en
+body-classes: "personal-mode lang-en collection-page artwork-page"
+---
+
+::: {.collection-top-navigation}
+[← Back to personal home](/personal/en/){.personal-arrow-link}
+[View poetry →](/personal/en/poetry/){.personal-arrow-link}
+:::
+
+::: {.collection-intro .personal-collection-intro}
+::: {.eyebrow}
+Personal · Artwork
+:::
+
+# Artwork
+
+Things drawn over the years, arranged here in a personal order. Original Chinese titles are retained.
+:::
+
+{{< include ../../_shared/artwork-content.qmd >}}
+
+::: {.collection-navigation}
+[← Back to personal home](/personal/en/){.personal-arrow-link}
+[View copyright notice →](/personal/en/copyright/){.personal-arrow-link}
+:::
