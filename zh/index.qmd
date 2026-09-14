@@ -13,9 +13,11 @@ body-classes: "academic-mode academic-home lang-zh"
 
 # 马可 · Ke Ma
 
-## 从模拟光谱、功率谱与统计推断出发，阅读高红移宇宙。
+## 通过类星体吸收光谱，追溯宇宙气体的历史。
 
-我在 **James S. Bolton 教授**指导下研究莱曼 α 森林与星系际介质。我的工作连接物理建模、巡天前向模拟和不确定性感知的统计推断，探索未来观测能够告诉我们什么关于宇宙再电离和金属增丰的故事。
+我研究星系际气体如何被加热、电离与金属增丰，以及这些过程如何塑造类星体吸收光谱。通过联系模拟与观测，我利用莱曼 α 森林和金属吸收研究这段历史，并改进将它们作为宇宙学探针时所需的物理解释。
+
+我目前在英国诺丁汉大学攻读博士，导师为 **James S. Bolton 教授**。
 
 ::: {.hero-actions}
 [查看研究](#research){.button .button-primary}
@@ -34,7 +36,7 @@ body-classes: "academic-mode academic-home lang-zh"
 天体物理博士
 :::
 ::: {.hero-fact}
-**Lyα · IGM · 再电离**
+**星系际介质 · 再电离 · 莱曼 α 森林**
 
 研究主线
 :::
@@ -48,81 +50,49 @@ body-classes: "academic-mode academic-home lang-zh"
 01 · 研究
 :::
 
-## 从模拟光线到物理约束
+## 星系际气体如何被加热、电离与金属增丰？
 
-我的工作并不把莱曼 α 森林当作一个孤立的观测量，而是把它看作一条完整链路：从星系际介质的物理过程，经过模拟光谱和巡天效应，最终抵达统计测量与参数约束。
-:::
-
-::: {.featured-research}
-::: {.featured-copy}
-::: {.research-status}
-最新成果 · 第一作者预印本
-:::
-
-### WEAVE-QSO 能否探测到斑块状再电离留下的遗迹？
-
-我开发了一套面向 $z \geq 4$ 莱曼 α 森林一维功率谱的前瞻分析流程。研究使用 Sherwood-Relics 模拟和 WEAVE-QSO 类观测光谱，将巡天统计量、仪器效应和天体物理污染统一传递到基于协方差的贝叶斯预测中。
-
-在论文采用的巡天模型下，斑块状氢再电离留下的大尺度信号预计可达到约 **4.5σ** 的探测显著性。
-
-[阅读 arXiv:2608.13153 →](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
-:::
-
-::: {.featured-metrics aria-label="WEAVE-QSO 研究概览"}
-::: {.metric}
-**4**
-
-个红移区间，$z=4.0$–$4.6$
-:::
-::: {.metric}
-**P1D**
-
-莱曼 α 森林功率谱
-:::
-::: {.metric}
-**4.5σ**
-
-预测探测显著性
-:::
-:::
+类星体吸收光谱记录着宇宙气体的物理状态。我将模拟与观测相联系，研究气体的分布与物理条件如何共同塑造吸收信号，并从中追溯宇宙气体的演化历史。
 :::
 
 ::: {.research-grid}
 ::: {.research-card}
 ::: {.card-number}
-01
+01 · 热历史
 :::
 
-### 巡天前向建模
+### 读取再电离留下的热记录
 
-将类 QSO 光谱、仪器分辨率、噪声、连续谱不确定性、金属线污染和高柱密度吸收体统一纳入巡天预测框架。
+氢再电离在星系际气体中留下了温度起伏。这些起伏在莱曼 α 森林大尺度功率谱中的印记，为研究再电离发生的时间与过程提供了线索。
 
-**方法：** Python · 模拟光谱 · 协方差 · MCMC
-:::
+**已有工作。** 我为 WEAVE-QSO 开发了模拟光谱与不确定性分析框架。在采用的巡天假设下，联合四个红移区间的分析预测，斑块状再电离印记可达到约 **4.5σ** 的探测显著性。这一预测强烈依赖最大尺度的信息；在这些尺度上，连续谱拟合和高柱密度吸收体尤为重要。
 
-::: {.research-card}
-::: {.card-number}
-02
-:::
+**下一步问题。** 我计划将这一印记与具有物理依据的再电离历史模型联系起来，评估能够约束哪些历史特征；同时探索功率谱与透射通量测量的联合分析能否减少参数简并，并在 WEAVE-QSO 数据可用后开展应用。
 
-### 高精度莱曼 α 森林系统误差
-
-推导并验证 correlated Si III absorption 的四参数模型，并在 **375** 组不同红移、热历史和硅丰度的模拟数据上完成检验。
-
-**成果：** 第一作者论文发表于 *MNRAS*
+[阅读 WEAVE-QSO 预测论文 →](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
 :::
 
 ::: {.research-card}
 ::: {.card-number}
-03
+02 · 金属增丰与电离
 :::
 
-### 星系际介质金属增丰
+### 从金属吸收中提取物理信息
 
-当前研究结合 Si III 功率谱信号和 Si IV 吸收体统计，约束硅丰度、密度依赖以及紫外背景模型的影响。
+金属吸收同时反映气体的化学增丰和电离辐射环境。区分两者的影响，是解释吸收信号、理解星系际金属演化的关键。
 
-**状态：** 进行中的博士研究
+**已有工作。** 我建立了莱曼 α 森林功率谱中相关 Si III 吸收的模拟驱动模型，将森林测量中的一项污染与吸收气体的硅丰度和电离状态联系起来，使其成为研究气体物理的新探针。
+
+**当前工作与下一步问题。** 我正在检验同一套模型能否同时解释 Si III 信号与 Si IV 吸收体统计，并计划研究气体密度、自屏蔽和暗物质晕环境如何影响这一解释，以及两个观测量能够消除哪些增丰与电离之间的简并。
+
+[阅读 Si III 建模论文 →](https://doi.org/10.1093/mnras/staf2262){target="_blank" rel="noopener"}
 :::
+:::
+
+::: {.research-approach}
+### 将物理模型与可观测信号联系起来
+
+我通过模拟生成的光谱、前向建模和统计推断，用观测检验物理解释。互补观测量之间的比较，有助于判断哪些结论可靠、气体模型的哪些环节仍需改进。这些研究也为将类星体吸收作为宇宙学探针提供更可靠的物理建模基础。
 :::
 :::
 
@@ -151,18 +121,22 @@ body-classes: "academic-mode academic-home lang-zh"
 
 **Ke Ma** et al. · 已投稿 *MNRAS* · 第一作者
 
+评估在现实的 WEAVE-QSO 巡天条件下，能否探测到斑块状再电离的热遗迹。
+
 [arXiv](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"} [PDF](https://arxiv.org/pdf/2608.13153){target="_blank" rel="noopener"}
 :::
 :::
 
 ::: {.publication-item}
 ::: {.publication-year}
-2025
+2026
 :::
 ::: {.publication-body}
 ### An improved model for the effect of correlated Si III absorption on the 1D Lyα forest power spectrum
 
 **Ke Ma** et al. · *Monthly Notices of the Royal Astronomical Society* · 第一作者
+
+通过相关金属吸收建模，改进对森林功率谱的物理解释。
 
 [期刊](https://doi.org/10.1093/mnras/staf2262){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2509.08613){target="_blank" rel="noopener"}
 :::
@@ -177,13 +151,15 @@ body-classes: "academic-mode academic-home lang-zh"
 
 **Ke Ma** et al. · *The Astrophysical Journal* · 第一作者
 
+量化宇宙方差对莱曼 α 发射体光度函数测量的影响。
+
 [期刊](https://doi.org/10.3847/1538-4357/ad04da){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2301.07360){target="_blank" rel="noopener"}
 :::
 :::
 :::
 
 ::: {.publication-more}
-[前往 Google Scholar 查看完整论文记录 →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
+[完整 ADS 论文库](https://ui.adsabs.harvard.edu/public-libraries/ah_HTSSZSU6GfpyGrApE6Q){target="_blank" rel="noopener"} · [Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
 :::
 :::
 
@@ -203,7 +179,7 @@ body-classes: "academic-mode academic-home lang-zh"
 这条路径也逐渐塑造了我的研究方式：从物理问题出发推导模型，完成数值实现，通过模拟或观测数据检验，再把结果组织成清晰、可交流的科学论证。
 
 ::: {.profile-note}
-**近期报告：** COSMO-26 contributed talk 已接收，2026 年 8 月，荷兰莱顿。
+**近期报告：** 2026 年 8 月在荷兰莱顿 COSMO-26 作 contributed talk。
 :::
 :::
 
@@ -279,7 +255,7 @@ UCL 数学与物理科学学院前 5% 毕业生荣誉
 
 ## 欢迎与我讨论研究。
 
-我欢迎围绕莱曼 α 森林、高红移星系际介质、光谱巡天前瞻、基于模拟的推断，以及如何用定量建模从复杂数据中提取可靠结构展开交流。
+欢迎围绕宇宙气体的热历史与金属增丰、类星体吸收，以及模拟与光谱观测的结合展开交流。
 :::
 
 ::: {.contact-links aria-label="职业链接"}

@@ -13,9 +13,11 @@ PhD researcher · University of Nottingham
 
 # Ke (Mark) Ma
 
-## Reading the high-redshift Universe through simulated spectra, power spectra and statistical inference.
+## Tracing the history of cosmic gas through quasar absorption.
 
-I am an astrophysicist working with **Prof. James S. Bolton** on the Lyman-α forest and the intergalactic medium. My research connects physical modelling, survey-forward simulations and uncertainty-aware inference to ask what future observations can reveal about cosmic reionization and metal enrichment.
+I study how intergalactic gas is heated, ionised and enriched, and how these processes shape quasar absorption spectra. By connecting simulations with observations, I use the Lyman-alpha forest and metal absorption to investigate this history and improve their interpretation as cosmological probes.
+
+I am a PhD researcher at the University of Nottingham, working with **Prof. James S. Bolton**.
 
 ::: {.hero-actions}
 [Explore my research](#research){.button .button-primary}
@@ -34,7 +36,7 @@ Current base
 Astrophysics PhD
 :::
 ::: {.hero-fact}
-**Lyα · IGM · Reionization**
+**IGM · Reionisation · Lyα forest**
 
 Research focus
 :::
@@ -48,81 +50,49 @@ Research focus
 01 · Research
 :::
 
-## From simulated light to physical constraints
+## How was intergalactic gas heated, ionised and enriched?
 
-My work treats the Lyα forest not as a single observable, but as a chain: from the physics of the intergalactic medium, through simulated spectra and survey effects, to statistical measurements and parameter constraints.
-:::
-
-::: {.featured-research}
-::: {.featured-copy}
-::: {.research-status}
-Latest · Lead-author preprint
-:::
-
-### Can WEAVE-QSO detect relics of patchy reionization?
-
-I developed a forecast workflow for the one-dimensional Lyα forest power spectrum at $z \geq 4$. Using Sherwood-Relics simulations and WEAVE-QSO-like mock spectra, the analysis propagates survey statistics, instrumental effects and astrophysical contaminants into a covariance-aware Bayesian forecast.
-
-The adopted survey model predicts that the large-scale imprint of patchy hydrogen reionization should be detectable at approximately **4.5σ**.
-
-[Read arXiv:2608.13153 →](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
-:::
-
-::: {.featured-metrics aria-label="WEAVE-QSO research summary"}
-::: {.metric}
-**4**
-
-redshift bins, $z=4.0$–$4.6$
-:::
-::: {.metric}
-**P1D**
-
-Lyα forest power spectrum
-:::
-::: {.metric}
-**4.5σ**
-
-forecast detectability
-:::
-:::
+Quasar absorption spectra preserve information about the physical state of cosmic gas. My research connects simulations with observations to understand how gas conditions shape these signatures, and what they can tell us about cosmic history.
 :::
 
 ::: {.research-grid}
 ::: {.research-card}
 ::: {.card-number}
-01
+01 · Thermal history
 :::
 
-### Survey-forward modelling
+### Reading the thermal record of reionisation
 
-Mock QSO spectra, instrumental resolution, noise, continuum uncertainty, metal contamination and high-column-density absorbers are carried into the same forecast framework.
+Hydrogen reionisation left temperature fluctuations in intergalactic gas. Their imprint on the large-scale Lyman-alpha forest power spectrum offers a way to investigate when and how reionisation occurred.
 
-**Methods:** Python · simulation-derived spectra · covariance · MCMC
-:::
+**My contribution.** I developed realistic mock spectra and an uncertainty framework for WEAVE-QSO. Under the adopted survey assumptions, the joint analysis of four redshift bins forecasts an approximately **4.5σ** detection of the patchy-reionisation imprint. The forecast depends strongly on the largest scales, where continuum placement and high-column-density absorbers are particularly important.
 
-::: {.research-card}
-::: {.card-number}
-02
-:::
+**Next questions.** I aim to connect this imprint to physically motivated reionisation histories and assess which properties can be constrained. I will also explore whether combining the power spectrum with transmitted-flux measurements can reduce degeneracies, before applying the framework to WEAVE-QSO data as they become available.
 
-### Precision Lyα forest systematics
-
-I derived and validated a four-parameter model for correlated Si III absorption in the Lyα forest power spectrum across **375** simulation variants.
-
-**Outcome:** first-author paper published in *MNRAS*
+[Read the WEAVE-QSO forecast →](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
 :::
 
 ::: {.research-card}
 ::: {.card-number}
-03
+02 · Enrichment & ionisation
 :::
 
-### IGM metal enrichment
+### Turning metal absorption into a physical probe
 
-My current work combines Si III power-spectrum signatures with Si IV absorber statistics to constrain silicon abundance, its density dependence and UV-background assumptions.
+Metal absorption carries information about both chemical enrichment and the radiation that ionises the gas. Separating these effects is essential for interpreting the absorption and understanding the history of intergalactic metals.
 
-**Status:** ongoing PhD research
+**My contribution.** I developed a simulation-based model of correlated Si III absorption in the Lyman-alpha forest power spectrum. This connects a source of contamination in forest measurements to the silicon abundance and ionisation state of the absorbing gas.
+
+**Current work and next questions.** I am testing whether a common model can explain both the Si III signal and Si IV absorber statistics. I plan to investigate how gas density, self-shielding and halo environments affect this interpretation, and which enrichment–ionisation degeneracies the two observables can resolve.
+
+[Read the Si III modelling paper →](https://doi.org/10.1093/mnras/staf2262){target="_blank" rel="noopener"}
 :::
+:::
+
+::: {.research-approach}
+### Connecting physical models with observable signatures
+
+I use simulation-derived spectra, forward modelling and statistical inference to test physical explanations against observations. Comparing complementary measurements helps establish which conclusions are robust and where a gas model needs to improve. Together, these studies also strengthen the physical modelling needed to use quasar absorption as a cosmological probe.
 :::
 :::
 
@@ -151,18 +121,22 @@ Lead-author work spanning survey forecasts, precision modelling and observationa
 
 **Ke Ma** et al. · Submitted to *MNRAS* · Lead author
 
+Tests whether the thermal imprint of patchy reionisation can be detected under realistic WEAVE-QSO survey conditions.
+
 [arXiv](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"} [PDF](https://arxiv.org/pdf/2608.13153){target="_blank" rel="noopener"}
 :::
 :::
 
 ::: {.publication-item}
 ::: {.publication-year}
-2025
+2026
 :::
 ::: {.publication-body}
 ### An improved model for the effect of correlated Si III absorption on the 1D Lyα forest power spectrum
 
 **Ke Ma** et al. · *Monthly Notices of the Royal Astronomical Society* · Lead author
+
+Models correlated metal absorption to improve the physical interpretation of the forest power spectrum.
 
 [Journal](https://doi.org/10.1093/mnras/staf2262){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2509.08613){target="_blank" rel="noopener"}
 :::
@@ -177,13 +151,15 @@ Lead-author work spanning survey forecasts, precision modelling and observationa
 
 **Ke Ma** et al. · *The Astrophysical Journal* · Lead author
 
+Quantifies how cosmic variance affects Lyman-alpha emitter luminosity-function measurements.
+
 [Journal](https://doi.org/10.3847/1538-4357/ad04da){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2301.07360){target="_blank" rel="noopener"}
 :::
 :::
 :::
 
 ::: {.publication-more}
-[View the full record on Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
+[Full publication library on ADS](https://ui.adsabs.harvard.edu/public-libraries/ah_HTSSZSU6GfpyGrApE6Q){target="_blank" rel="noopener"} · [Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
 :::
 :::
 
@@ -203,7 +179,7 @@ I trained in theoretical physics at **University College London**, moved into ob
 That route has made crossing methodological boundaries a defining part of how I work: deriving a model, implementing the numerical analysis, testing it against simulations or data, and turning the result into a clear scientific argument.
 
 ::: {.profile-note}
-**Upcoming:** accepted contributed talk at COSMO-26, Leiden, August 2026.
+**Recent talk:** contributed talk presented at COSMO-26, Leiden, August 2026.
 :::
 :::
 
@@ -279,7 +255,7 @@ Competitive funding for PhD study at the University of Nottingham
 
 ## Research conversations are welcome.
 
-I welcome conversations around the Lyα forest, high-redshift IGM physics, spectroscopic-survey forecasting, simulation-based inference, and the broader use of quantitative modelling to extract reliable structure from complex data.
+I welcome conversations about the thermal and enrichment history of cosmic gas, quasar absorption, and connecting simulations with spectroscopic observations.
 :::
 
 ::: {.contact-links aria-label="Professional links"}
