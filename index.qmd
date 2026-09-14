@@ -264,7 +264,7 @@ Competitive funding for PhD study at the University of Nottingham
 
 ::: {.cv-actions}
 [Academic CV (EN) ↓](assets/cv/Ke_Ma_Academic_CV_EN.pdf){.button .button-primary target="_blank" rel="noopener"}
-[Industrial / Quantitative CV (中文) ↓](assets/cv/Ke_Ma_Industrial_Quantitative_CV_CN.pdf){.button .button-quiet target="_blank" rel="noopener"}
+[Industrial CV (中文) ↓](assets/cv/Ke_Ma_Industrial_CV_CN.pdf){.button .button-quiet target="_blank" rel="noopener"}
 :::
 :::
 :::

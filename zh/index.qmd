@@ -264,7 +264,7 @@ UCL 数学与物理科学学院前 5% 毕业生荣誉
 
 ::: {.cv-actions}
 [学术简历（英文）↓](../assets/cv/Ke_Ma_Academic_CV_EN.pdf){.button .button-primary target="_blank" rel="noopener"}
-[业界量化简历（中文）↓](../assets/cv/Ke_Ma_Industrial_Quantitative_CV_CN.pdf){.button .button-quiet target="_blank" rel="noopener"}
+[业界简历（中文）↓](../assets/cv/Ke_Ma_Industrial_CV_CN.pdf){.button .button-quiet target="_blank" rel="noopener"}
 :::
 :::
 :::
