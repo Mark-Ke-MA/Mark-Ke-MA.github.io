@@ -1121,6 +1121,8 @@ main.content {
 /* Academic home ---------------------------------------------------------- */
 
 .academic-home .academic-hero {
+  --qso-position: center;
+  --qso-inset: 1.6rem 0;
   min-height: min(43rem, calc(100vh - var(--header-height)));
   padding: clamp(4.5rem, 8vw, 6.5rem) clamp(2rem, 6vw, 4.5rem) clamp(3.8rem, 6vw, 5.2rem);
   display: grid;
@@ -1132,17 +1134,28 @@ main.content {
   content: "";
   position: absolute;
   z-index: -2;
-  inset: 1.6rem 0;
+  inset: var(--qso-inset);
   border: 1px solid rgba(49, 94, 168, 0.16);
   border-radius: 2rem;
   background:
+    url("../images/academic/hero-stars.svg") center / cover no-repeat,
     linear-gradient(90deg, rgba(4, 13, 29, 0.96) 0%, rgba(6, 18, 38, 0.9) 43%, rgba(5, 16, 34, 0.58) 66%, rgba(3, 11, 25, 0.18) 100%),
-    url("../images/academic/qso.png") center / cover no-repeat;
+    url("../images/academic/qso-layers.svg") var(--qso-position) / cover no-repeat #010f22;
   box-shadow: 0 2rem 6rem rgba(16, 27, 54, 0.18);
 }
 
 .academic-home .academic-hero::after {
-  content: none;
+  content: "";
+  z-index: -1;
+  inset: var(--qso-inset);
+  width: auto;
+  aspect-ratio: auto;
+  border: 1px solid transparent;
+  border-radius: 2rem;
+  box-shadow: none;
+  background: url("../images/academic/qso.png") var(--qso-position) / cover no-repeat;
+  filter: url("../images/academic/qso-layers.svg#foreground");
+  mask-image: linear-gradient(90deg, transparent 38%, #000 72%);
 }
 
 .academic-home .hero-copy {
@@ -1267,6 +1280,7 @@ main.content {
 }
 
 .section-header h2,
+.honours-block h2,
 .contact-copy h2 {
   margin: 0.65rem 0 0.9rem;
   color: inherit;
@@ -1277,7 +1291,6 @@ main.content {
 }
 
 .section-header > p,
-.section-side-note,
 .contact-copy > p {
   color: var(--academic-muted);
   font-size: 1.04rem;
@@ -1411,31 +1424,30 @@ main.content {
 .section-tinted {
   position: relative;
   overflow: hidden;
-  color: #eef4ff;
+  color: rgba(238, 244, 255, 0.83);
   padding-inline: clamp(1.5rem, 5vw, 4rem);
   border: 1px solid rgba(133, 173, 235, 0.16);
   border-radius: 1.8rem;
-  background:
-    linear-gradient(90deg, rgba(7, 16, 32, 0.96), rgba(7, 16, 32, 0.82)),
-    url("../images/academic/particles.png") center / cover no-repeat;
+  background-color: #071020;
   box-shadow: 0 2rem 5rem rgba(16, 27, 54, 0.14);
 }
 
 .section-tinted .section-header,
 .section-tinted .publication-list,
-.section-tinted .publication-more {
+.section-tinted .honours-block {
   position: relative;
   z-index: 1;
 }
 
 .section-tinted .section-index,
 .section-tinted .publication-year {
-  color: #8fb4f4;
+  color: rgba(143, 180, 244, 0.82);
 }
 
-.section-tinted .section-side-note,
-.section-tinted .publication-body p {
-  color: #becae0;
+.section-tinted .publication-overview,
+.section-tinted .publication-body p,
+.section-tinted .honour-item p {
+  color: rgba(216, 227, 245, 0.73);
 }
 
 .section-tinted .publication-list {
@@ -1446,45 +1458,54 @@ main.content {
   border-bottom-color: rgba(255, 255, 255, 0.16);
 }
 
-.section-tinted .publication-body h3 {
-  color: #f6f9ff;
+.section-tinted .publication-body h3,
+.section-tinted .honour-item strong {
+  color: rgba(246, 249, 255, 0.84);
 }
 
 .section-tinted .publication-body a,
 .section-tinted .publication-more a {
-  color: #a8c8ff;
+  color: rgba(168, 200, 255, 0.86);
 }
 
 #publications {
-  padding-block: clamp(3rem, 5vw, 4.4rem);
+  padding-block: clamp(2rem, 4vw, 3rem);
+  /* The artwork keeps the broad blue glow centred on Antares as it scales. */
+  background:
+    url("../images/academic/scorpius-stars.webp") right 6rem bottom -2.5rem / auto 26rem no-repeat,
+    url("../images/academic/publication-starfield.webp") center / 100% auto repeat-y,
+    linear-gradient(117deg, #071020 10%, #0a1931 63%, #0b1a32);
 }
 
 #publications .section-header {
-  margin-bottom: clamp(1.4rem, 2.4vw, 2rem);
+  margin-bottom: 1.35rem;
 }
 
-#publications .publication-item {
-  padding-block: 1.15rem;
-}
-
-#publications .publication-featured {
-  padding-block: 1.35rem;
-}
-
-#publications .publication-more {
-  margin-top: 0.9rem;
+#publications .section-header h2,
+#publications .honours-block h2 {
+  margin: 0.35rem 0 0;
+  font-size: clamp(2.2rem, 4.6vw, 3.65rem);
 }
 
 .section-header-split {
   max-width: none;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.45fr);
+  grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.75fr);
   align-items: end;
-  gap: 3rem;
+  gap: 0.65rem 2rem;
 }
 
-.section-side-note {
-  margin: 0 0 0.7rem;
+.publication-overview {
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.publication-overview > p {
+  margin: 0 0 0.4rem;
+}
+
+.publication-more p {
+  margin: 0;
 }
 
 .publication-list {
@@ -1492,49 +1513,58 @@ main.content {
 }
 
 .publication-item {
-  padding: 1.5rem 0;
+  padding: 1.15rem 0;
   display: grid;
-  grid-template-columns: 5rem minmax(0, 1fr);
-  gap: clamp(1.2rem, 4vw, 3rem);
+  grid-template-columns: 3.25rem minmax(0, 1fr);
+  gap: clamp(0.65rem, 2vw, 1.5rem);
   border-bottom: 1px solid rgba(24, 33, 54, 0.13);
 }
 
-.publication-featured {
-  padding-block: 1.8rem;
+.publication-year {
+  padding-top: 0.2rem;
 }
 
-.publication-year {
-  padding-top: 0.35rem;
+.publication-year p {
+  margin: 0;
 }
 
 .publication-body h3 {
   max-width: 58rem;
-  margin: 0 0 0.65rem;
+  margin: 0 0 0.42rem;
   color: inherit;
-  font-size: clamp(1.2rem, 2.25vw, 1.65rem);
+  font-size: clamp(1.13rem, 2vw, 1.48rem);
   font-weight: 610;
   letter-spacing: -0.022em;
-  line-height: 1.35;
+  line-height: 1.3;
 }
 
 .publication-body p {
-  margin: 0.35rem 0;
+  margin: 0;
   color: var(--academic-muted);
-  line-height: 1.65;
+  line-height: 1.48;
+}
+
+.publication-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.2rem 1.1rem;
+  margin-bottom: 0.36rem;
+  font-size: 0.9rem;
+}
+
+.publication-links p {
+  display: flex;
+  gap: 0.85rem;
 }
 
 .publication-body a,
 .publication-more a {
-  margin-right: 1rem;
   color: var(--academic-blue);
   font-size: 0.84rem;
   font-weight: 700;
   text-underline-offset: 0.24em;
-}
-
-.publication-more {
-  margin-top: 1.55rem;
-  text-align: right;
 }
 
 .profile-layout {
@@ -1544,6 +1574,7 @@ main.content {
 }
 
 #profile {
+  padding-top: clamp(2.35rem, 4vw, 3.25rem);
   padding-bottom: clamp(2.25rem, 4vw, 3.25rem);
 }
 
@@ -1595,14 +1626,15 @@ main.content {
 .profile-extras {
   margin-top: clamp(2.2rem, 4.5vw, 3.8rem);
   padding-top: clamp(1.7rem, 3vw, 2.4rem);
-  display: grid;
-  grid-template-columns: minmax(0, 1.55fr) minmax(17rem, 0.55fr);
-  gap: clamp(2.25rem, 4.5vw, 4rem);
   border-top: 1px solid var(--line);
 }
 
+#honours {
+  margin-top: clamp(1.65rem, 3vw, 2.3rem);
+}
+
 .profile-extras h3 {
-  margin: 0 0 1rem;
+  margin: 0 0 0.7rem;
   color: var(--academic-ink);
   font-size: 1rem;
   font-weight: 720;
@@ -1613,19 +1645,19 @@ main.content {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
+  margin-top: 1.15rem;
 }
 
 .honour-item {
   min-width: 0;
-  padding: 1.15rem;
-  border: 1px solid var(--line);
+  padding: 1.1rem 1.2rem;
+  border: 1px solid rgba(143, 180, 244, 0.24);
   border-radius: 0.9rem;
-  background: rgba(255, 255, 255, 0.54);
+  background: rgba(143, 180, 244, 0.08);
 }
 
 .honour-item p {
   margin: 0;
-  color: var(--academic-muted);
   font-size: 0.82rem;
   line-height: 1.55;
 }
@@ -1633,24 +1665,20 @@ main.content {
 .honour-item strong {
   display: block;
   margin-bottom: 0.42rem;
-  color: var(--academic-ink);
   font-size: 0.86rem;
   line-height: 1.35;
 }
 
-.cv-downloads {
-  align-self: start;
-}
-
 .cv-actions,
 .cv-actions > p {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   gap: 0.72rem;
   margin: 0;
 }
 
 .cv-actions .button {
-  width: 100%;
+  min-width: min(12rem, 100%);
   justify-content: space-between;
   text-align: left;
 }
@@ -1672,7 +1700,9 @@ main.content {
   border-radius: 1.8rem;
   background:
     linear-gradient(90deg, rgba(7, 16, 32, 0.99) 0%, rgba(7, 16, 32, 0.91) 48%, rgba(7, 16, 32, 0.56) 100%),
-    url("../images/academic/quantum-waves.png") center / cover no-repeat;
+    url("../images/academic/quantum-glow.svg") var(--quantum-position, center) / cover no-repeat,
+    url("../images/academic/quantum-waves.png") var(--quantum-position, center) / cover no-repeat;
+  background-blend-mode: normal, screen, normal;
 }
 
 .contact-panel > * {
@@ -1731,6 +1761,7 @@ main.content {
 
 .lang-zh .academic-hero h1,
 .lang-zh .section-header h2,
+.lang-zh .honours-block h2,
 .lang-zh .contact-copy h2 {
   letter-spacing: -0.035em;
 }
@@ -1802,20 +1833,22 @@ main.content {
   }
 
   .academic-home .academic-hero {
+    --qso-position: 68% center;
+    --qso-inset: 1.2rem -1rem;
     min-height: 40rem;
     padding: 4.1rem 1rem 3.25rem;
   }
 
   .academic-home .academic-hero::before {
-    inset: 1.2rem -1rem;
-    opacity: 1;
-    background:
+    background-image:
+      url("../images/academic/hero-stars.svg"),
       linear-gradient(90deg, rgba(4, 13, 29, 0.97), rgba(6, 18, 38, 0.88) 68%, rgba(3, 11, 25, 0.42)),
-      url("../images/academic/qso.png") 68% center / cover no-repeat;
+      url("../images/academic/qso-layers.svg");
   }
 
   .academic-home .academic-hero::after {
-    right: -7rem;
+    opacity: 1;
+    mask-image: linear-gradient(90deg, transparent 42%, #000 85%);
   }
 
   .academic-home .hero h1 {
@@ -1847,6 +1880,11 @@ main.content {
     padding-block: 3.6rem;
   }
 
+  #publications {
+    background-size: 100% auto, 36rem auto, auto;
+    background-position: right top, center top, center;
+  }
+
   .hero-facts {
     grid-template-columns: 1fr;
     gap: 0;
@@ -1866,7 +1904,6 @@ main.content {
   .featured-research,
   .section-header-split,
   .profile-layout,
-  .profile-extras,
   .contact-panel {
     grid-template-columns: 1fr;
   }
@@ -1874,6 +1911,10 @@ main.content {
   .featured-research,
   .contact-panel {
     gap: 1.9rem;
+  }
+
+  .contact-panel {
+    --quantum-position: 66% center;
   }
 
   .honours-list {
@@ -1918,26 +1959,13 @@ main.content {
     min-height: auto;
   }
 
-  .section-side-note {
-    margin-top: -1.25rem;
-  }
-
   .publication-item {
-    padding-block: 1.3rem;
     grid-template-columns: 1fr;
-    gap: 0.55rem;
-  }
-
-  .publication-featured {
-    padding-block: 1.55rem;
+    gap: 0.35rem;
   }
 
   .publication-year {
     padding-top: 0;
-  }
-
-  .publication-more {
-    text-align: left;
   }
 
   .personal-foyer {

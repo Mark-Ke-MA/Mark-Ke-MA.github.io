@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <defs>
+    <!-- Keep the dark disc and bright line work from qso.png, dropping its navy backdrop. -->
+    <filter id="foreground" color-interpolation-filters="sRGB" x="0" y="0" width="100%" height="100%">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 8 0 0 -0.61" result="lineMask"/>
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 -15 0 1.5" result="discMask"/>
+      <feComposite in="lineMask" in2="discMask" operator="over" result="silhouette"/>
+      <feComposite in="SourceGraphic" in2="silhouette" operator="in"/>
+    </filter>
+    <radialGradient id="halo" cx="1205" cy="471" r="825" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4a83cf" stop-opacity=".64"/>
+      <stop offset=".22" stop-color="#447ecb" stop-opacity=".52"/>
+      <stop offset=".48" stop-color="#386bbb" stop-opacity=".27"/>
+      <stop offset=".78" stop-color="#305da3" stop-opacity=".08"/>
+      <stop offset="1" stop-color="#305da3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1672" height="941" fill="url(#halo)"/>
+</svg>

@@ -21,7 +21,7 @@ body-classes: "academic-mode academic-home lang-zh"
 
 ::: {.hero-actions}
 [查看研究](#research){.button .button-primary}
-[最新预印本](https://arxiv.org/abs/2608.13153){.button .button-quiet target="_blank" rel="noopener"}
+[最新论文](https://doi.org/10.1093/mnras/stag2028){.button .button-quiet target="_blank" rel="noopener"}
 :::
 
 ::: {.hero-facts aria-label="个人概览"}
@@ -69,7 +69,7 @@ body-classes: "academic-mode academic-home lang-zh"
 
 **下一步问题。** 我计划将这一印记与具有物理依据的再电离历史模型联系起来，评估能够约束哪些历史特征；同时探索功率谱与透射通量测量的联合分析能否减少参数简并，并在 WEAVE-QSO 数据可用后开展应用。
 
-[阅读 WEAVE-QSO 预测论文 →](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
+[阅读 WEAVE-QSO 预测论文 →](https://doi.org/10.1093/mnras/stag2028){target="_blank" rel="noopener"}
 :::
 
 ::: {.research-card}
@@ -100,45 +100,57 @@ body-classes: "academic-mode academic-home lang-zh"
 ::: {.section-header .section-header-split}
 ::: {}
 ::: {.section-index}
-02 · 代表成果
+02 · 代表成果与荣誉
 :::
 
 ## 论文
 :::
 
-::: {.section-side-note}
+::: {.publication-overview}
 第一作者研究覆盖巡天前瞻、高精度物理建模与观测天文学。
+
+::: {.publication-more}
+[完整 ADS 论文库](https://ui.adsabs.harvard.edu/public-libraries/ah_HTSSZSU6GfpyGrApE6Q){target="_blank" rel="noopener"} · [Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
+:::
 :::
 :::
 
 ::: {.publication-list}
-::: {.publication-item .publication-featured}
+::: {.publication-item}
 ::: {.publication-year}
 2026
 :::
 ::: {.publication-body}
 ### Forecast for the detectability of patchy hydrogen reionization in WEAVE-QSO measurements of the Lyman-α forest power spectrum at redshift $z \geq 4$
 
-**Ke Ma** et al. · 已投稿 *MNRAS* · 第一作者
+::: {.publication-meta}
+**Ke Ma** et al. · *Monthly Notices of the Royal Astronomical Society* · 第一作者
+
+::: {.publication-links}
+[期刊](https://doi.org/10.1093/mnras/stag2028){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
+:::
+:::
 
 评估在现实的 WEAVE-QSO 巡天条件下，能否探测到斑块状再电离的热遗迹。
-
-[arXiv](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"} [PDF](https://arxiv.org/pdf/2608.13153){target="_blank" rel="noopener"}
 :::
 :::
 
 ::: {.publication-item}
 ::: {.publication-year}
-2026
+<time datetime="2025-12-24" title="2025 年 12 月 24 日首次在线发表">2025</time>
 :::
 ::: {.publication-body}
 ### An improved model for the effect of correlated Si III absorption on the 1D Lyα forest power spectrum
 
+::: {.publication-meta}
 **Ke Ma** et al. · *Monthly Notices of the Royal Astronomical Society* · 第一作者
 
-通过相关金属吸收建模，改进对森林功率谱的物理解释。
-
+::: {.publication-links}
 [期刊](https://doi.org/10.1093/mnras/staf2262){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2509.08613){target="_blank" rel="noopener"}
+:::
+:::
+
+通过相关金属吸收建模，改进对森林功率谱的物理解释。
 :::
 :::
 
@@ -149,17 +161,41 @@ body-classes: "academic-mode academic-home lang-zh"
 ::: {.publication-body}
 ### MAMMOTH-Subaru V. Effect of cosmic variance on Lyα luminosity functions at $z=2.2$–$2.3$
 
+::: {.publication-meta}
 **Ke Ma** et al. · *The Astrophysical Journal* · 第一作者
 
-量化宇宙方差对莱曼 α 发射体光度函数测量的影响。
-
+::: {.publication-links}
 [期刊](https://doi.org/10.3847/1538-4357/ad04da){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2301.07360){target="_blank" rel="noopener"}
 :::
 :::
+
+量化宇宙方差对莱曼 α 发射体光度函数测量的影响。
+:::
+:::
 :::
 
-::: {.publication-more}
-[完整 ADS 论文库](https://ui.adsabs.harvard.edu/public-libraries/ah_HTSSZSU6GfpyGrApE6Q){target="_blank" rel="noopener"} · [Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
+::: {#honours .honours-block}
+## 荣誉
+
+::: {.honours-list}
+::: {.honour-item}
+**Wood Prize**
+
+UCL 物理与天文系 大二总成绩系第一
+:::
+
+::: {.honour-item}
+**Faculty Dean’s List**
+
+UCL 数学与物理学院 前5%优秀毕业生
+:::
+
+::: {.honour-item}
+**CSC Research Excellence Scholarship**
+
+获国家留学基金委资助，在诺丁汉大学攻读博士
+:::
+:::
 :::
 :::
 
@@ -211,30 +247,6 @@ body-classes: "academic-mode academic-home lang-zh"
 :::
 
 ::: {.profile-extras}
-::: {.honours-block}
-### 代表性荣誉与资助
-
-::: {.honours-list}
-::: {.honour-item}
-**Wood Prize**
-
-UCL 物理与天文系大二物理总成绩第一
-:::
-
-::: {.honour-item}
-**Faculty Dean’s List**
-
-UCL 数学与物理科学学院前 5% 毕业生荣誉
-:::
-
-::: {.honour-item}
-**CSC Research Excellence Scholarship**
-
-获国家留学基金委资助，在诺丁汉大学攻读博士
-:::
-:::
-:::
-
 ::: {.cv-downloads}
 ### 简历下载
 

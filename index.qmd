@@ -21,7 +21,7 @@ I am a PhD researcher at the University of Nottingham, working with **Prof. Jame
 
 ::: {.hero-actions}
 [Explore my research](#research){.button .button-primary}
-[Latest preprint](https://arxiv.org/abs/2608.13153){.button .button-quiet target="_blank" rel="noopener"}
+[Latest paper](https://doi.org/10.1093/mnras/stag2028){.button .button-quiet target="_blank" rel="noopener"}
 :::
 
 ::: {.hero-facts aria-label="Profile summary"}
@@ -69,7 +69,7 @@ Hydrogen reionisation left temperature fluctuations in intergalactic gas. Their 
 
 **Next questions.** I aim to connect this imprint to physically motivated reionisation histories and assess which properties can be constrained. I will also explore whether combining the power spectrum with transmitted-flux measurements can reduce degeneracies, before applying the framework to WEAVE-QSO data as they become available.
 
-[Read the WEAVE-QSO forecast →](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
+[Read the WEAVE-QSO forecast →](https://doi.org/10.1093/mnras/stag2028){target="_blank" rel="noopener"}
 :::
 
 ::: {.research-card}
@@ -100,45 +100,57 @@ I use simulation-derived spectra, forward modelling and statistical inference to
 ::: {.section-header .section-header-split}
 ::: {}
 ::: {.section-index}
-02 · Selected work
+02 · Selected work & honours
 :::
 
 ## Publications {#publications-heading}
 :::
 
-::: {.section-side-note}
+::: {.publication-overview}
 Lead-author work spanning survey forecasts, precision modelling and observational astronomy.
+
+::: {.publication-more}
+[Full publication library on ADS](https://ui.adsabs.harvard.edu/public-libraries/ah_HTSSZSU6GfpyGrApE6Q){target="_blank" rel="noopener"} · [Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
+:::
 :::
 :::
 
 ::: {.publication-list}
-::: {.publication-item .publication-featured}
+::: {.publication-item}
 ::: {.publication-year}
 2026
 :::
 ::: {.publication-body}
 ### Forecast for the detectability of patchy hydrogen reionization in WEAVE-QSO measurements of the Lyman-α forest power spectrum at redshift $z \geq 4$
 
-**Ke Ma** et al. · Submitted to *MNRAS* · Lead author
+::: {.publication-meta}
+**Ke Ma** et al. · *Monthly Notices of the Royal Astronomical Society* · Lead author
+
+::: {.publication-links}
+[Journal](https://doi.org/10.1093/mnras/stag2028){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"}
+:::
+:::
 
 Tests whether the thermal imprint of patchy reionisation can be detected under realistic WEAVE-QSO survey conditions.
-
-[arXiv](https://arxiv.org/abs/2608.13153){target="_blank" rel="noopener"} [PDF](https://arxiv.org/pdf/2608.13153){target="_blank" rel="noopener"}
 :::
 :::
 
 ::: {.publication-item}
 ::: {.publication-year}
-2026
+<time datetime="2025-12-24" title="First published online on 24 December 2025">2025</time>
 :::
 ::: {.publication-body}
 ### An improved model for the effect of correlated Si III absorption on the 1D Lyα forest power spectrum
 
+::: {.publication-meta}
 **Ke Ma** et al. · *Monthly Notices of the Royal Astronomical Society* · Lead author
 
-Models correlated metal absorption to improve the physical interpretation of the forest power spectrum.
-
+::: {.publication-links}
 [Journal](https://doi.org/10.1093/mnras/staf2262){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2509.08613){target="_blank" rel="noopener"}
+:::
+:::
+
+Models correlated metal absorption to improve the physical interpretation of the forest power spectrum.
 :::
 :::
 
@@ -149,17 +161,41 @@ Models correlated metal absorption to improve the physical interpretation of the
 ::: {.publication-body}
 ### MAMMOTH-Subaru V. Effect of cosmic variance on Lyα luminosity functions at $z=2.2$–$2.3$
 
+::: {.publication-meta}
 **Ke Ma** et al. · *The Astrophysical Journal* · Lead author
 
-Quantifies how cosmic variance affects Lyman-alpha emitter luminosity-function measurements.
-
+::: {.publication-links}
 [Journal](https://doi.org/10.3847/1538-4357/ad04da){target="_blank" rel="noopener"} [arXiv](https://arxiv.org/abs/2301.07360){target="_blank" rel="noopener"}
 :::
 :::
+
+Quantifies how cosmic variance affects Lyman-alpha emitter luminosity-function measurements.
+:::
+:::
 :::
 
-::: {.publication-more}
-[Full publication library on ADS](https://ui.adsabs.harvard.edu/public-libraries/ah_HTSSZSU6GfpyGrApE6Q){target="_blank" rel="noopener"} · [Google Scholar →](https://scholar.google.com/citations?user=8XiAuuIAAAAJ){target="_blank" rel="noopener"}
+::: {#honours .honours-block}
+## Honours
+
+::: {.honours-list}
+::: {.honour-item}
+**Wood Prize**
+
+Ranked 1st in second-year Physics, UCL Physics & Astronomy
+:::
+
+::: {.honour-item}
+**Faculty Dean’s List**
+
+Top 5% graduating students, UCL Mathematical & Physical Sciences
+:::
+
+::: {.honour-item}
+**CSC Research Excellence Scholarship**
+
+Competitive funding for PhD study at the University of Nottingham
+:::
+:::
 :::
 :::
 
@@ -211,30 +247,6 @@ First Class Honours · 85/100
 :::
 
 ::: {.profile-extras}
-::: {.honours-block}
-### Selected honours & funding
-
-::: {.honours-list}
-::: {.honour-item}
-**Wood Prize**
-
-Ranked 1st in second-year Physics, UCL Physics & Astronomy
-:::
-
-::: {.honour-item}
-**Faculty Dean’s List**
-
-Top 5% graduating students, UCL Mathematical & Physical Sciences
-:::
-
-::: {.honour-item}
-**CSC Research Excellence Scholarship**
-
-Competitive funding for PhD study at the University of Nottingham
-:::
-:::
-:::
-
 ::: {.cv-downloads}
 ### Curriculum vitae
 

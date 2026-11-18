@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941">
+  <defs>
+    <filter id="diffusion" x="-35%" y="-100%" width="170%" height="300%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="45 20"/>
+    </filter>
+  </defs>
+  <!-- Use the same canvas as quantum-waves.png to keep the glow on its waist. -->
+  <g transform="translate(1102 470)" filter="url(#diffusion)" style="isolation:isolate">
+    <path d="M-630 0 0-118 630 0 0 118Z" fill="#ef9fb0" opacity=".34"/>
+    <path d="M-459 0 0-182 459 0 0 182Z" fill="#8abbff" opacity=".44" style="mix-blend-mode:screen"/>
+    <path d="M-274 0 0-77 274 0 0 77Z" fill="#91e0c3" opacity=".43" style="mix-blend-mode:screen"/>
+  </g>
+</svg>
